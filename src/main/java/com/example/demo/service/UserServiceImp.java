@@ -1,6 +1,6 @@
-package com.example.demo.mvc.service;
+package com.example.demo.service;
 
-import com.example.demo.mvc.model.User;
+import com.example.demo.model.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

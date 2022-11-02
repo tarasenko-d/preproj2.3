@@ -1,7 +1,7 @@
-package com.example.demo.mvc.dao;
+package com.example.demo.dao;
 
 
-import com.example.demo.mvc.model.User;
+import com.example.demo.model.User;
 import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 

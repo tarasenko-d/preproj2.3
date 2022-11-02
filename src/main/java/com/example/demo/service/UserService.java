@@ -1,11 +1,10 @@
-package com.example.demo.mvc.dao;
+package com.example.demo.service;
 
-import com.example.demo.mvc.model.User;
+import com.example.demo.model.User;
 
 import java.util.List;
 
-
-public interface UserDao {
+public interface UserService {
 
     void add(User user);
 

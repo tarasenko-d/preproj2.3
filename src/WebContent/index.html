@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Users</title>
+    <style>table th, table td {padding: 5px;}</style>
+</head>
+
+<body>
+<h1>Users Table:</h1>
+
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>username</th>
+        <th>password</th>
+        <th>email</th>
+    </tr>
+
+    <tr th:each="lst : ${list}">
+        <td th:utext="${lst.getId}">id</td>
+        <td th:utext="${lst.getUsername}">username</td>
+        <td th:utext="${lst.getPassword}">password</td>
+        <td th:utext="${lst.getEmail}">email</td>
+    </tr>
+
+</table>
+
+</body>
+
+</html>

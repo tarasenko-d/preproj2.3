@@ -1,9 +1,10 @@
-package com.example.demo.mvc.model;
+package com.example.demo.model;
 
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 
@@ -11,6 +12,7 @@ import javax.persistence.*;
 @Table
 @Setter
 @Getter
+@ToString
 @NoArgsConstructor
 public class User {
 
